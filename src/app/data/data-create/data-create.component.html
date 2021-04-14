@@ -1,0 +1,26 @@
+<div class="container-fluid bg">
+    <h1 style="text-align: center; color: white;">Form Data</h1>
+    <div class="row">
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
+            <mat-card class="h1" style="font-size: larger;">
+                <mat-form-field>
+                    <input matInput type="text" [(ngModel)]="enteredName" placeholder="Enter Name">
+                </mat-form-field>
+                <mat-form-field>
+                    <textarea matInput rows="2" [(ngModel)]="enteredContent" placeholder="Enter Location"></textarea>
+                </mat-form-field>
+                <mat-form-field>
+                    <textarea matInput rows="2" [(ngModel)]="enteredAddress" placeholder="Enter Address"></textarea>
+                </mat-form-field>
+                <mat-form-field>
+                    <textarea matInput rows="2" [(ngModel)]="enteredMessage" placeholder="Enter Message"></textarea>
+                </mat-form-field>
+
+                <button mat-raised-button color="accent" (click)="onAddPost()">Save Post</button>
+            </mat-card>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>

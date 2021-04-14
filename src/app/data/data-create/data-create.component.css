@@ -1,0 +1,11 @@
+textarea, mat-form-field {
+    width: 100%;
+    }
+    .btnOne {
+    color: rgb(215, 215, 219);
+    }
+    .bg{
+        border-color: black;
+         padding-top: 40px;
+        
+    }
